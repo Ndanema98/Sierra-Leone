@@ -40,3 +40,8 @@ h1, h2 {
 .active {
     border-bottom: 1px solid black;
 }
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image4.jpg') no-repeat center center;
+}
