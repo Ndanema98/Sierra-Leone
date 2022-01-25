@@ -19,3 +19,24 @@ h1, h2 {
     float: left;
     font-size: 250%;
 }
+#menu {
+    font-size: 150%;
+    letter-spacing: 1px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 150px;
+}
+#menu a {
+    text-decoration: none;
+}
+#menu a:hover {
+    border-bottom: 1px solid black;
+}
+.active {
+    border-bottom: 1px solid black;
+}
