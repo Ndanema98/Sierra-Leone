@@ -8,4 +8,14 @@
 body {
     font-family:'Saira Extra Condensed', sans-serif; 
     font-weight: 500;
+}   
+h1, h2 {
+    font-family:'Roboto Condensed', sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+}
+#logo {
+    float: left;
+    font-size: 250%;
 }
