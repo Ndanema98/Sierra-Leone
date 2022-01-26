@@ -63,7 +63,7 @@ h1, h2 {
     background: url('../images/hero-image5.jpg') center center;
 
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
 }
 #key-title {
@@ -126,7 +126,7 @@ hr {
          transform: scale(1);
      }
      to{
-         transform: scale(1.1);
+         transform: scale(1.2);
      }
  }
  #hero-text {
