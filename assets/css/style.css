@@ -47,6 +47,15 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
+}
+#hero-text, #hero-text p  {
+    color: white;
+    font-family:'Saira Extra Condensed', sans-serif; 
+    font-size: small;
+    text-transform: none;
+
 }
 #hero-image {
     height: 600px;
@@ -119,5 +128,24 @@ hr {
      to{
          transform: scale(1.1);
      }
+ }
+ #hero-text {
+     font-size: 130%;
+     font-family: 'Roboto Condensed', sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+
+     width: 300px;
+     height: 250px;
+
+     padding-top: 10px;
+     padding-left: 10px;
+
+     background-color: lightblue;
+
+     bottom: 30px;
+     right: 150px;
+
+     position: absolute;
  }
 
