@@ -148,4 +148,12 @@ hr {
 
      position: absolute;
  }
+ #timeline {
+     background-image: url(../images/timeline-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     overflow: hidden;
+ }
 
