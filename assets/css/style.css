@@ -46,3 +46,21 @@ h1, h2 {
     width: 100%;
     background: url('../images/hero-image4.jpg') no-repeat center center;
 }
+#key-facts {
+height: 600px;
+}
+#left-facts {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+#right-facts {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+#center-facts {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+}
