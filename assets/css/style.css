@@ -70,7 +70,10 @@ h1, h2 {
     text-align: center;
 }
 #key-facts {
-height: 600px;
+height: 400px;
+}
+#historical_timeline {
+    text-align: center;
 }
 #left-facts {
     padding-top: 30px;
@@ -179,7 +182,7 @@ hr {
      font-size: 160%;
      margin: 1%;
      padding: 5%;
-     color: black;
+     color: #1843DE;
  }
  #photo {
      clear: both;
