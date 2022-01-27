@@ -210,4 +210,19 @@ hr {
      width: 100%;
      
  }
+ .form-section {
+    clear: left;
+    background: url(../images/background_form.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+ }
+ .signup-form {
+     margin: 150px 10% 0 0;
+     color: #1843DE;
+     background-color:rgba(245, 245, 245, 0.952);
+     width: 500px;
+     float: right;
+     absolute;
+ }
 
