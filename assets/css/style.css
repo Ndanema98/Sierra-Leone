@@ -226,3 +226,27 @@ hr {
      absolute;
  }
 
+ @media screen and (max-width: 1200px){
+     #key-facts {
+         width:65%;
+         height:1200px;
+         margin: 0 auto;
+     }
+     #key-title {
+         padding: 30px 0;
+         margin: 0;
+     }
+     #right-facts, #left-facts {
+         width: 100%;
+         float: left;
+         padding: 0;
+     }
+     #center-facts {
+         clear:both;
+         width:100%;
+         float:left;
+         padding:0;
+     }
+    }
+    
+
