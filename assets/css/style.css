@@ -21,6 +21,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 250%;
+    color: rgb(15, 119, 15);
 }
 #menu {
     font-size: 150%;
@@ -50,12 +51,14 @@ h1, h2 {
 
     position: relative;
 }
+#hero-text h2 {
+    color: rgb(15, 119, 15);
+}
 #hero-text, #hero-text p  {
-    color: white;
+    color:rgba(245, 245, 245, 0.952);
     font-family:'Saira Extra Condensed', sans-serif; 
     font-size: small;
     text-transform: none;
-
 }
 #hero-image {
     height: 600px;
@@ -68,22 +71,32 @@ h1, h2 {
 }
 #key-title {
     text-align: center;
+    color: rgb(15, 119, 15);
 }
 #key-facts {
 height: 400px;
 }
 #historical_timeline {
     text-align: center;
+    color:rgb(15, 119, 15);
 }
 #left-facts {
     padding-top: 30px;
     width: 33%;
     float: left;
+    color: #1843DE;
+}
+#left-facts h2 {
+    color:rgb(15, 119, 15);
 }
 #right-facts {
     padding-top: 30px;
     width: 33%;
     float: right;
+    color: #1843DE;
+}
+#right-facts h2 {
+    color:rgb(15, 119, 15);
 }
 #center-facts {
     padding-top: 30px;
@@ -159,8 +172,11 @@ hr {
      width: 100%;
      overflow: hidden;
  }
+ #timeline h2 {
+     color:rgba(245, 245, 245, 0.952);
+ }
  #timeline div {
-     color: white;
+     color: rgba(245, 245, 245, 0.952);
      width: 12.5%;
      height: 300px;
      float: left;
