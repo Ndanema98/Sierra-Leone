@@ -235,6 +235,9 @@ hr {
  .quiz {
      color: black;
  }
+ input[type=submit], input[type=reset] {
+     border: 3px solid #1843DE;
+ }
 
  @media screen and (max-width: 1200px){
      #key-facts {
