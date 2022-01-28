@@ -238,7 +238,13 @@ hr {
  input[type=submit], input[type=reset] {
      border: 3px solid #1843DE;
  }
-
+@media screen and (max-width: 1400px){
+    #menu {
+        clear:left;
+        float:left;
+        margin-left: 30px;
+        margin-bottom: 15px;
+}
  @media screen and (max-width: 1200px){
      #key-facts {
          width:65%;
