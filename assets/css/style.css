@@ -229,7 +229,7 @@ hr {
  @media screen and (max-width: 1200px){
      #key-facts {
          width:65%;
-         height:1200px;
+         height:800px;
          margin: 0 auto;
      }
      #key-title {
@@ -271,7 +271,7 @@ hr {
         }
         #key-facts {
             width: 90%;
-            height: 1200px;
+            height: 800px;
             margin: 0 auto;
         }
         .left-facts-head, .right-facts-head {
@@ -285,6 +285,13 @@ hr {
             text-align: center;
             padding: 0 20px;
         }
-    
+    #photo {
+        column-count: 3;
+    }
+    }
+    @media screen and (max-width: 800px){
+        #photo {
+            column-count: 2;
+        }
     }
 
