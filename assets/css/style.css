@@ -247,6 +247,16 @@ hr {
          float:left;
          padding:0;
      }
+     #timeline > div {
+         width:100%;
+         clear:both;
+         height: 150px;
+         padding: 0;
+         color: black;
+     }
+     #timeline div h2 {
+         color:black;
+     }
     }
     @media screen and (max-width: 950px){
         #menu {
@@ -256,5 +266,25 @@ hr {
             margin-bottom: 20px;
             line-height: 25px;
         }
+        #hero-text {
+            left: 0;
+        }
+        #key-facts {
+            width: 90%;
+            height: 1200px;
+            margin: 0 auto;
+        }
+        .left-facts-head, .right-facts-head {
+            width:inherit;
+        }
+        .left-facts-head h2, .right-facts-head h2{
+            width:100%;
+            text-align: center;
+        }
+        .left-facts-head h3, .right-facts-head h3 {
+            text-align: center;
+            padding: 0 20px;
+        }
+    
     }
 
