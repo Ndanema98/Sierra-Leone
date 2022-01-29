@@ -27,6 +27,40 @@ This website was built using knowledge gained from HTML and CSS modules, for the
    ![A screenshot of my hero section](/assets/images/hero-section.jpeg)
 
   - ## The Key Facts Section
-    - 
+    - This section includes some essential information about Sierra Leone. These sub-sections include "languages", "independance", "capital city" and "currency". 
+    - The middle section contains the Sierra Leonean flag, which whilst being easy on the eye and matching the sites colour scheme, it also allows users to see what the Sierra Leonean flag looks like.
+    - The heading's for this section were made green to match the colour scheme. Therefore the text was made blue, which compliments the white background. 
+
+    ![A screenshot of my key facts section](/assets/images/keyfacts-section.jpeg)
+
+  
+ - ## The Timeline Section 
+   - This section has a timeline of major historical events that have occured. 
+   - Keeping with the colour scheme the text was made white as green or blue would not contrast with the background image enough. 
+
+   ![A screenshot of my timeline section](/assets/images/timeline-section.jpeg)
+
+  - ## The Gallery Section
+    - This section has a range of pictures that I felt best represented Sierra Leone. 
+    - Masonry styling was also used as the width of the images were kept the same but they had differing heights. 
+
+   ![A screenshot of my gallery section](/assets/images/gallery-section.jpeg)
+
+  - ## The Competition Section
+    - This section has a form which can collect users answers for the quiz. The form also collects user details so that they can be considered for the prize. 
+    - This section is important as it gives the users an incentive to use the website. 
+    - Form validation requests users to input the correct information into the form. It also prevents users from submitting blank quizez. 
+  
+
+    ![A screenshot of my competition section](/assets/images/competition.jpeg)
+
+  - ## Footer
+    - This section encourages users to find out more through the social media links provided. 
+    - The icons were made blue and the background was made white to match the colour scheme. 
+
+    ![A screenshot of my footer](/assets/images/footer.jpeg)
+
+
+
 
 
