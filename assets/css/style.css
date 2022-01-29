@@ -5,13 +5,16 @@
     padding: 0;
     border: none;
 }
-h1 {
-    font-size: 250%;
-}
 body {
     font-family:'Saira Extra Condensed', sans-serif; 
     font-weight: 500;
 }   
+
+/* headings and logo */
+
+h1 {
+    font-size: 250%;
+}
 h1, h2 {
     font-family:'Roboto Condensed', sans-serif; 
     text-transform: uppercase;
@@ -20,9 +23,13 @@ h1, h2 {
 }
 #logo {
     float: left;
+    margin-left: 30px;
     font-size: 250%;
     color: rgb(15, 119, 15);
 }
+
+/* navigation links */
+
 #menu {
     font-size: 150%;
     letter-spacing: 1px;
@@ -44,6 +51,9 @@ h1, h2 {
 .active {
     border-bottom: 1px solid black;
 }
+
+/* hero image and text */
+
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -60,25 +70,55 @@ h1, h2 {
     font-size: small;
     text-transform: none;
 }
+#hero-text {
+    font-size: 130%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 250px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+
+    background-color: lightblue;
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
 #hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image5.jpg') center center;
 
+    /* animation for zoom for hero image */ 
     animation-name: hero-zoom;
     animation-duration: 8s;
     animation-fill-mode: forwards;
 }
+
+/* zoom for hero image */
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+
+/* key facts */
+
 #key-title {
     text-align: center;
     color: rgb(15, 119, 15);
 }
 #key-facts {
 height: 400px;
-}
-#historical_timeline {
-    text-align: center;
-    color:rgba(245, 245, 245, 0.952);
 }
 #left-facts {
     padding-top: 30px;
@@ -137,33 +177,13 @@ hr {
     clear:both;
     margin-bottom: 50px;
  }
- @keyframes hero-zoom {
-     from{
-         transform: scale(1);
-     }
-     to{
-         transform: scale(1.2);
-     }
- }
- #hero-text {
-     font-size: 130%;
-     font-family: 'Roboto Condensed', sans-serif;
-     text-transform: uppercase;
-     letter-spacing: 4px;
 
-     width: 300px;
-     height: 250px;
+ /* timeline */
 
-     padding-top: 10px;
-     padding-left: 10px;
-
-     background-color: lightblue;
-
-     bottom: 30px;
-     right: 150px;
-
-     position: absolute;
- }
+ #historical_timeline {
+    text-align: center;
+    color:rgba(245, 245, 245, 0.952);
+}
  #timeline {
      background-image: url(../images/timeline-bg.jpg);
      background-repeat: no-repeat;
@@ -185,6 +205,9 @@ hr {
      border: 2px solid white;
      box-sizing: border-box;
  }
+
+ /* footer */
+
  footer {
      height: 150px;
  }
@@ -200,6 +223,9 @@ hr {
      padding: 5%;
      color: #1843DE;
  }
+
+ /* gallery */
+
  #photo {
      clear: both;
      line-height: 0;
@@ -210,6 +236,9 @@ hr {
      width: 100%;
      
  }
+
+ /* competition */
+
  .form-section {
     clear: left;
     background: url(../images/background_form.jpeg);
@@ -238,6 +267,9 @@ hr {
  input[type=submit], input[type=reset] {
      border: 3px solid #1843DE;
  }
+
+ /* media queries */
+
 @media screen and (max-width: 1400px){
     #menu {
         clear:left;
