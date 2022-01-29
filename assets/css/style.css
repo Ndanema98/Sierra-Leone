@@ -78,7 +78,7 @@ height: 400px;
 }
 #historical_timeline {
     text-align: center;
-    color:rgb(15, 119, 15);
+    color:rgba(245, 245, 245, 0.952);
 }
 #left-facts {
     padding-top: 30px;
@@ -266,6 +266,9 @@ hr {
          float:left;
          padding:0;
      }
+     #historical_timeline {
+         color: black;
+     }
      #timeline > div {
          width:100%;
          clear:both;
@@ -323,7 +326,9 @@ hr {
             margin-left: 30px;
             margin-bottom: 20px;
         }
+        #hero-text {
+            font-size: 120%;
+        }
     }
-        
-    }
+    
 
