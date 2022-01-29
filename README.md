@@ -8,4 +8,4 @@ This website was targetted at people who wanted to gain a better understanding o
 
 This website was built using knowledge gained from HTML and CSS modules, for the purpose of completing my first Milestone Project for the Code Institute's full stack developer course. 
 
-
+![A screenshot of my responsive website](/assets/images/responsive.jpeg)
