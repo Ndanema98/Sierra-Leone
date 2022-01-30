@@ -2,11 +2,11 @@
 # Sierra Leone - The History & Facts
 ["Sierra Leone - The History & Facts"](https://ndanema98.github.io/Sierra-Leone/index.html) is a website designed to educate people of all ages on Sierra Leone.  
 
-Users of this website will be able to further their knowledge on Sierra Leone, through the key facts and historical timeline section. The competition section also allows a lucky user to win a free trip to Sierra Leone. 
+Users of this website will be able to further their knowledge on Sierra Leone, through the key facts and historical timeline section. The competition section also allows a lucky user to win a free trip to Sierra Leone. This incentive should encourage more users to visit my website. 
 
 This website was targetted at people who wanted to gain a better understanding of Sierra Leone's history and facts. 
 
-This website was built using knowledge gained from HTML and CSS modules, for the purpose of completing my first Milestone Project for the Code Institute's full stack developer course. 
+This website was built using knowledge gained from HTML and CSS modules, for the purpose of completing my first Milestone Project for the Code Institute's full stack developer course. This website is easy to navigate and easy to read, with a clear goal and aim. 
 
   ![A screenshot of my responsive website](/assets/images/responsive.jpeg)
  
@@ -87,7 +87,81 @@ This website was built using knowledge gained from HTML and CSS modules, for the
        ![A screenshot of the accessibility score for gallery.html](/assets/images/accessibility2.png)
 
       competition.html 
-       ![A screenshot of the accessibility score for competition.html](/assets/images/accessibility3.png)
+       ![A screenshot of the accessibility score for competition.html](/assets/images/accessibility3.png)'
+  
+- ## Bugs 
+   - ### Solved 
+     - The Submit and Clear button were not visable. This problem was solved when i added "input[type=submit], input[type=reset] {
+     border: 3px solid #1843DE; }" to my style sheet.
+     - My heading for my facts on the right was floating the wrong way. This was fixed by using "float:left;".
+     - The navigation bar on my competition page kept getting pushed under the image. This was fixed using "@media screen and (max-width: 1400px){
+    #menu {
+        clear:left;
+        float:left;
+        margin-left: 30px;
+        margin-bottom: 15px;}. 
+
+   - ### Unsolved 
+      - The navigation bar overflows when the screen gets to 350px and under.
+      - My central image overflows when the screen gets to 350px and under. 
+      - My commit messages used the wrong attribute. Should have used "feat" instead of "docs".  
+
+- ## Technologies Used 
+   - Git 
+     - Allowed me to add commit and push my code to github for version control. 
+   - Gitpod 
+     - The programme used to code my website 
+   - Github 
+     - Allowed me to store my repository and files pushed from Gitpod 
+   - Fontawesome 
+     - Used to display icons to make my website more visually appealing. 
+   - Chrome developer tools 
+     - Allowed me to troubleshoot and edit my code.
+   - Am I Responsive 
+      - Allowed me to check the responsiveness of my website at different screen sizes. 
+   - W3C Validator 
+      - Allowed me to validate my HTML and CSS code against industry standard. 
+
+- ## Deployment
+   - ### Remote 
+
+   1. Click on the settings icon in the navigation bar.
+   2. Scoll until Github pages is visable.
+   3. Once clicked change the branch to "main" and change the directory to "root". 
+   4. Next, click the save button. 
+   5. It may take a few moments for the website to publish but once its done, a link to the live website will be provided. 
+
+    - ### Forking
+    1. In the top right corner of the page click on the fork button. 
+    2. The next page will show a forked version of my project. 
+
+    - ### Cloning a repository
+     1. Fork the repository using the steps above. 
+     2. Next click code 
+     3. You will then be asked if you want to clone using HTTPS, SSH or Github CLI
+     4. Click the copy button
+     5. Open Git bash and select the directory you want the clone to go to
+     6. Type git clone and then paste the URL. 
+     7. Lastly press enter and your clone will be created. 
+
+- ## Credits
+  - ### Images
+    - The images for my gallery and my background images can be [found here.](/assets/images/images-links.txt)
+
+  - ### Code
+    - The code for my header was taken from Code Institute's [Love running walkthrough](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/637be1a2e3b84b25aa33f3ab4d98603c/)
+    - The code for my footer was taken from Code Institute's [Love running walkthrough](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/e6d4cda2bc08458ba94d2092be9bad3a/) 
+    - The code for my timeline and key facts was inspired by Code Institute's [Love running walkthrough](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/)
+
+  - ### Information 
+     - The information used in my timeline can be [found here](https://www.bbc.co.uk/news/world-africa-14094419)
+     - The information used in my hero text can be [found here](https://en.wikipedia.org/wiki/Sierra_Leone)
+
+- ## Acknowledgement 
+    - The online tutors that Code Institute provides. 
+    - My mentor Ben Kav for helping me when I was stuck. 
+    - Everybody on slack, for their advice. 
+
 
 
 
