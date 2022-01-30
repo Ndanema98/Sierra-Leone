@@ -60,6 +60,16 @@ This website was built using knowledge gained from HTML and CSS modules, for the
 
     ![A screenshot of my footer](/assets/images/footer.jpeg)
 
+ # Testing 
+ - ## Manual 
+  -  This website has been tested using three different browsers (Google Chrome, Firefox, Safari) and I can confirm that it works. 
+  - This website has been tested with all the standard screen sizes and I can confirm that it is responsive. 
+  - The navigation bar has been tested and I can confirm that all the different links take you to their respective pages. 
+  - I can confirm that the form works and requires an entry in every field. The submit button also takes you to the appropriate page, when the form is complete. 
+
+- ## Validator 
+ - 
+
 
 
 
