@@ -19,7 +19,7 @@ h1, h2 {
     font-family:'Roboto Condensed', sans-serif; 
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: black;
+    color:rgb(15, 119, 15);
 }
 #logo {
     float: left;

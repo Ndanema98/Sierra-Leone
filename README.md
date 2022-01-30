@@ -62,13 +62,35 @@ This website was built using knowledge gained from HTML and CSS modules, for the
 
  # Testing 
  - ## Manual 
-  -  This website has been tested using three different browsers (Google Chrome, Firefox, Safari) and I can confirm that it works. 
-  - This website has been tested with all the standard screen sizes and I can confirm that it is responsive. 
-  - The navigation bar has been tested and I can confirm that all the different links take you to their respective pages. 
-  - I can confirm that the form works and requires an entry in every field. The submit button also takes you to the appropriate page, when the form is complete. 
+   -  This website has been tested using three different browsers (Google Chrome, Firefox, Safari) and I can confirm that it works. 
+   - This website has been tested with all the standard screen sizes and I can confirm that it is responsive. 
+   - The navigation bar has been tested and I can confirm that all the different links take you to their respective pages. 
+   - I can confirm that the form works and requires an entry in every field. The submit button also takes you to the appropriate page, when the form is complete. 
 
 - ## Validator 
- - 
+  - ### HTML
+    - The official W3C validator was used to validate my HTML. No errors were found when my code was input. 
+
+   ![A screenshot of my HTML validation](/assets/images/html-validator.png)
+
+  - ### CSS 
+    - The official W3C validator (Jigsaw) was used to validate my CSS. No errors were found when my code was input. 
+
+    ![A screenshot of my CSS validation](/assets/images/css-validator.png)
+
+  - ### Accessibility 
+    - The Lighthouse function in devtools was used to see if the font and the font colours used were easy to read and access. I can confirm that all the pages on my website passed. 
+      index.html
+       ![A screenshot of the accessibility score for index.html](/assets/images/accessibility1.png)
+
+      gallery.html 
+       ![A screenshot of the accessibility score for gallery.html](/assets/images/accessibility2.png)
+
+      competition.html 
+       ![A screenshot of the accessibility score for competition.html](/assets/images/accessibility3.png)
+
+
+
 
 
 
